@@ -41,3 +41,13 @@
  - On the You're about to be signed out click on Close and the computer will reboot itself
  - Once it reboots, you will see the domain name and then login
  - To check the active directory tool, click on the windows button, click on All, scroll down and click on Windows Tools and then click on Active Directory Administrative Center and also group policy
+
+# Assigning a Static IP address to the Domain Controller
+- Click on the search bar
+- Type in Terminal and on the terminal type in ipconfig and note the IP address and subnet
+- Click on the search bar and type in settings and press enter
+- Click on Network & internet and click on Ethernet
+- Click on Edit for IP assignment and under Edit IP settings type in the IP address that was found under earlier and the same for Subnet mask and Gateway as well
+- Restart to check that the assigned static IP address is still the same
+- After restarting, click on the search bar and type in Terminal and then in the terminal type in ipconfig /all
+- Go back to the settings under Network & Internet and check that IP assignment is set to Manual
