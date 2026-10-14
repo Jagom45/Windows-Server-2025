@@ -30,12 +30,14 @@
 - Let the installation finish and don't close the window yet
 - Once the installation is done click on Promote this server to a domain controller
 
-  # Active Directory Domain Services Configuration Wizare
-  - On Deployment Configuration select Add a new forest and enter a desired name like homelab.local
-  - On Domain Controller Options make sure that Forest functional leve and Domain functional level is set to Windows Server 2025 and enter a password under Type the Directory Services Restore Mode (DSRM) password and click on next
-  - On DNS options click on next for now
-  - On Additional Options you can edit the NetBIOS domain name or click on next
-  - On Paths click on next
-  - On Review Options review that everything is correct and click on next
-  - On Prerequisites Check wait for it to run and you will see All prerequisites checks passed successfully and then click on Install and let it finish
-  - On the You're about to be signed out click on Close and the computer will reboot itself
+ # Active Directory Domain Services Configuration Wizard
+ - On Deployment Configuration select Add a new forest and enter a desired name like homelab.local
+ - On Domain Controller Options make sure that Forest functional leve and Domain functional level is set to Windows Server 2025 and enter a password under Type the Directory Services Restore Mode (DSRM) password and click on next
+ - On DNS options click on next for now
+ - On Additional Options you can edit the NetBIOS domain name or click on next
+ - On Paths click on next
+ - On Review Options review that everything is correct and click on next
+ - On Prerequisites Check wait for it to run and you will see All prerequisites checks passed successfully and then click on Install and let it finish
+ - On the You're about to be signed out click on Close and the computer will reboot itself
+ - Once it reboots, you will see the domain name and then login
+ - To check the active directory tool, click on the windows button, click on All, scroll down and click on Windows Tools and then click on Active Directory Administrative Center and also group policy
