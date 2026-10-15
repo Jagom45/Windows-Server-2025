@@ -54,6 +54,7 @@
 # Windows 11 Pro Installation
 - Under Is this the right country or region click on Yes
 - Under Want to add a second keyboard layout click on Skip
+- Under How would you like to set up this device, select Set up for work or school
 - Under Name your device type in Computer01
 - Under How would you like to set up this device click on Set up for work or school to join it on a domain
 - Under Let's set things up for your work or school click on Sign-in options and then click on Domain join instead
@@ -91,3 +92,43 @@
 # Adding a description
 - Another best practice is to add a description to the computer that is newly domain joined
 - TO add a description double click on it, under description you can add the user that is assigned to that computer and where its located, example: Lucas Clyne 4th floor, click on apply and then okay
+
+# Creating a Distribution Groups
+- Go to Active Directory user and groups
+- Expand the forest that was created earlier
+- Right click on users and hover over New and click on Grup
+- Note: Security Groups are created if you want to give permissions Shared resources, also under security groups you can make a different type that just assigns user rights or assigns permission
+- Note: Rights is what a user can do and permissions is what a user can access
+- Note: Distribution Groups are used to create email distribution lists to send email to collections of users by using an email application like Exchange Server, an example would be All employees, Department Based like Finance, IT or HR and Role-based like Executives, Managers and Admins
+- Under Group name named it DL-ITAdmins, select Global and Distribution
+
+# Creating a IT Security Group
+- Right click on IT and hover over new, click on Groups
+- Type in IT and select Global and Security and press okay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
