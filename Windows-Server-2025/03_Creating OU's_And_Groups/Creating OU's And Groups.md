@@ -73,7 +73,7 @@
 
 # Joining the Domain
 - Click on the file explorer, right click on This PC, click on properties, scroll down and click on Domain or workgroup
-- Under System Properties click on Change and select Member of Domain and type in the domain name of the server
+- Under System Properties click on Change where it says To rename this computer or change its domain or workgroup and select Member of Domain and type in the domain name of the server
 - Under Windows Security type in the domain admin user and press okay
 - You will see a message that says Welcome to the homelab.local domain
 - You will need to restart the computer
